@@ -9,3 +9,7 @@ The dex2jar & jd-gui is already in this repo, just clone and run the script by t
 2. `cd ApkDecomile/`
 3. `./decompileApk.sh <File.apk>`
 
+# Q&A
+### Q1. Is there any file or directory will be created by this script?
+* The tempory files (jar) will be created under the `/tmp` and removed after closing the `jd-gui` automatically.
+
